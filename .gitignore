@@ -1,0 +1,24 @@
+# Data and recordings
+controller_data/*
+!controller_data/README.md
+!controller_data/build_embeddings.py
+generation_*/data/
+*.jsonl
+*.csv
+*.npy
+*.npz
+
+# Training outputs and models
+rl_training/outputs/
+*.pt
+
+# Python and notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local files
+.env
+.env.*
+.venv/
+.claude/
